@@ -79,7 +79,7 @@ class _ConverterPageState extends State<ConverterPage> {
           const Expanded(
               // TODO
               // los nombres de las monedas se pueden obtener en la lista currencies
-              // la tasa de cambio se puede obtener en la estructura de datos rates
+              // la tasa de cambio se puede obtener en la estructura de datos rates en eesta falta rate
               child: Center(
             child: KeyPad(textCurrency1: urrency1, textCurrency2: Currency2, rate: rate) ,
           ))
