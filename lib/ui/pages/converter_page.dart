@@ -81,7 +81,7 @@ class _ConverterPageState extends State<ConverterPage> {
               // los nombres de las monedas se pueden obtener en la lista currencies
               // la tasa de cambio se puede obtener en la estructura de datos rates en eesta falta rate
               child: Center(
-            child: KeyPad(textCurrency1: currency1, textCurrency2: currency2, rate: rate) ,
+            child: KeyPad(textCurrency1: currency1, textCurrency2: currency2, rate:rate) ,
           ))
         ]));
   }
